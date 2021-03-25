@@ -49,6 +49,7 @@
     "@typescript-eslint/eslint-plugin": "^2.11.0",
     "@typescript-eslint/parser": "^2.11.0",
     "babel-eslint": "^10.0.3",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "5.x",
     "eslint-config-airbnb": "^18.0.0",
     "eslint-config-darkristy": "0.2.15",
@@ -89,5 +90,10 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
